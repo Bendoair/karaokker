@@ -1,0 +1,29 @@
+# Python
+backend/.venv/
+backend/cuda_shims/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/work/
+*.egg-info/
+.pytest_cache/
+
+# Kotlin / Gradle
+.gradle/
+build/
+composeApp/build/
+out/
+*.iml
+.idea/
+.kotlin/
+
+# Outputs
+output/
+work/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local model cache override
+models/
